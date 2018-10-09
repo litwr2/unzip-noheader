@@ -1,5 +1,5 @@
 # unzip-noheader
-Such messages are used, for example, by bittrex exchange market.  This program uses standard input channel.
+Such messages are used, for example, by bittrex exchange.  This program uses standard input channel.
 
 Usage examples:
 
