@@ -14,3 +14,5 @@ link_directories(/usr/local/lib)
 add_executable(unzip-noheader unzip-noheader.cpp base64-string.h)
 
 target_link_libraries(unzip-noheader boost_system boost_iostreams stdc++ z pthread)
+
+install(TARGETS unzip-noheader RUNTIME DESTINATION bin)
